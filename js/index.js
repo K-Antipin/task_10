@@ -56,7 +56,7 @@ const display = () => {
         const li = document.createElement('li');
         const div = document.createElement('div');
         li.classList.add('fruit__item', classes[fruits[i].color]);
-        div.className = 'fruit__info';
+        div.classList.add('fruit__info');
         fruitsList.appendChild(li);
         li.appendChild(div);
         fruits[i] = { index: i + 1, ...fruits[i] };
