@@ -97,7 +97,7 @@ const shuffleFruits = () => {
         resultFruits.push(fruits.splice(randomNumber, 1)[0]);
     }
 
-    //Проверяем массивы идентичность
+    //Проверяем массивы на идентичность
     if (compareArrays(copyFruits, resultFruits)) {
         alert('Неудачное перемешивание');
     }
